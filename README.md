@@ -73,11 +73,11 @@ Frequency analysis (do đây là substitution tuyến tính).
 
 + mã hóa
   
-  <img width="1871" height="831" alt="image" src="https://github.com/user-attachments/assets/7f6809c2-80f1-424e-926c-46f118279dbc" />
+  <img width="1323" height="1009" alt="image" src="https://github.com/user-attachments/assets/2ecba2ce-6a1c-4388-9120-6dff53893b60" />
 
 + giải mã
 
-  <img width="1731" height="815" alt="image" src="https://github.com/user-attachments/assets/2038af3a-7b49-4efa-b473-edca51dca1f5" />
+  <img width="1436" height="994" alt="image" src="https://github.com/user-attachments/assets/a40c354e-5bc7-450a-8711-1fca51d17545" />
 
 3 — Hoán vị (Columnar transposition)
 
@@ -114,12 +114,12 @@ Dùng phân tích ngôn ngữ hoặc đo lường độ "tiếng" kết quả.
 - bằng html+css+javascript
 
 + mã hóa
-+ 
-  <img width="1894" height="919" alt="image" src="https://github.com/user-attachments/assets/41e25cda-facc-4a8f-b747-3cf0223b279f" />
+  
+<img width="1179" height="1022" alt="image" src="https://github.com/user-attachments/assets/101ebd96-3781-4a15-9d8e-bb59b8b9e1f0" />
 
 + giải mã
 
- <img width="1894" height="919" alt="image" src="https://github.com/user-attachments/assets/e5a05f47-a4ea-46d6-87de-f9ce294955df" />
+ <img width="1262" height="965" alt="image" src="https://github.com/user-attachments/assets/dfef6875-12dc-4053-aaa1-1864bffa1c09" />
 
 4 — Vigenère
 
@@ -154,11 +154,12 @@ Sau khi tìm m, tách chuỗi thành m chuỗi con và áp dụng phân tích t�
 - bằng html+css+javascript
    + Mã hóa
    
-   <img width="1872" height="788" alt="image" src="https://github.com/user-attachments/assets/9bcaa91e-6718-4702-a6fc-28d20820fc0a" />
+  <img width="882" height="890" alt="image" src="https://github.com/user-attachments/assets/3b0b27c6-643b-40b9-a6f2-bd4335a219d6" />
 
    + Giair mã
      
-   <img width="1823" height="922" alt="image" src="https://github.com/user-attachments/assets/f73e2825-ffa3-48ee-ac74-7d7290d81b58" />
+   <img width="1214" height="980" alt="image" src="https://github.com/user-attachments/assets/aa962b05-81e9-4444-8988-4ad732c381a5" />
+
    
 5 — Playfair
 
@@ -221,8 +222,8 @@ Nếu plaintext có cấu trúc (từ phổ biến), có thể tận dụng patt
 
   + mã hóa
 
-    <img width="1692" height="698" alt="image" src="https://github.com/user-attachments/assets/cfb8fb45-8ee4-47d5-879c-e8a91ca86f6c" />
+    <img width="1301" height="952" alt="image" src="https://github.com/user-attachments/assets/5b8f421a-3259-4a5f-a4cf-699ffae4ba27" />
 
   + giải mã
 
-    <img width="1808" height="728" alt="image" src="https://github.com/user-attachments/assets/113feb9e-6b6f-4e80-9a86-6fa2e77cb33b" />
+   <img width="1442" height="992" alt="image" src="https://github.com/user-attachments/assets/db45a9d9-f7b7-448d-8edb-22353bb7f925" />
