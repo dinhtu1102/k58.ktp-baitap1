@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playfair Cipher</title>
+  <link rel="stylesheet" href="playfair.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Playfair Cipher</h1>
+
+    <div class="main-content">
+
+      <!-- Input Section -->
+      <div class="input-section">
+        <div class="input-group">
+          <label for="plain">Nhập văn bản (A-Z, J→I):</label>
+          <input type="text" id="plain" maxlength="300" placeholder="VD: HELLO WORLD">
+        </div>
+
+        <div class="input-group">
+          <label for="key">Nhập khóa (chữ hoa A-Z, không trùng nhau):</label>
+          <input type="text" id="key" maxlength="25" placeholder="VD: MONARCHY">
+        </div>
+
+        <div class="input-group flex-row">
+          <button onclick="encryptPlayfair()">Mã hóa</button>
+          <button onclick="decryptPlayfair()">Giải mã</button>
+        </div>
+      </div>
+
+      <!-- Steps / Log Section -->
+      <div class="steps-section" id="stepsBox" style="display:none;">
+        <h3>Quy trình chi tiết</h3>
+        <div id="log1"></div>
+        <div id="log2"></div>
+        <div id="log3"></div>
+        <div id="final"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="playfair.js"></script>
+</body>
+</html>

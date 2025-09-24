@@ -1,0 +1,130 @@
+/* playfair.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container {
+  background: #fff;
+  margin: 50px auto;
+  padding: 30px 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 700px;
+}
+
+h1 {
+  text-align: center;
+  color: #1a1a1a;
+  font-size: 32px;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input-section {
+  background: #f0f8ff;
+  padding: 22px;
+  border-radius: 15px;
+  border: 1px solid #d0d0d0;
+}
+
+.input-group {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  gap: 15px;
+}
+
+.input-group label {
+  font-weight: 600;
+  margin-bottom: 7px;
+  color: #333;
+  font-size: 15px;
+}
+
+.input-group input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+.input-group input:focus {
+  border-color: #6a5acd;
+  box-shadow: 0 0 8px rgba(106, 90, 205, 0.5);
+}
+
+.input-group button {
+  padding: 12px 18px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background: #6a5acd;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.input-group button:hover {
+  background: #5b4fc4;
+  transform: scale(1.05);
+}
+
+.steps-section {
+  background: #fff4e6;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #ffcc99;
+}
+
+.steps-section h3 {
+  margin-top: 0;
+  color: #d35400;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.steps-section ul {
+  margin: 10px 0 0 20px;
+}
+
+.result {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 12px;
+  background: #ffe6cc;
+  border: 1px solid #ffb380;
+  font-weight: 700;
+  color: #d35400;
+  font-size: 16px;
+}
+
+.error {
+  padding: 12px;
+  border-radius: 10px;
+  background: #ffe6e6;
+  border: 1px solid #ff9999;
+  color: #c0392b;
+  font-weight: 700;
+  font-size: 15px;
+}

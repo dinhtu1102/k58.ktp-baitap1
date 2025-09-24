@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Affine Cipher</title>
+  <link rel="stylesheet" href="affine.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Affine Cipher</h1>
+
+    <div class="main-content">
+
+      <!-- Input Section -->
+      <div class="input-section">
+        <div class="input-group">
+          <label for="plain">Nhập văn bản (A-Z, khoảng trắng):</label>
+          <input type="text" id="plain" maxlength="200" placeholder="VD: HELLO WORLD">
+        </div>
+
+        <div class="input-group flex-row">
+          <div>
+            <label for="keyA">Khóa a (gcd(a,26)=1):</label>
+            <input type="number" id="keyA" min="1" max="25" placeholder="VD: 5">
+          </div>
+          <div>
+            <label for="keyB">Khóa b (0-25):</label>
+            <input type="number" id="keyB" min="0" max="25" placeholder="VD: 8">
+          </div>
+        </div>
+
+        <div class="input-group flex-row">
+          <button onclick="encryptAffine()">Mã hóa</button>
+          <button onclick="decryptAffine()">Giải mã</button>
+        </div>
+      </div>
+
+      <!-- Steps / Log Section -->
+      <div class="steps-section" id="stepsBox" style="display:none;">
+        <h3>Quy trình chi tiết</h3>
+        <div id="log1"></div>
+        <div id="log2"></div>
+        <div id="log3"></div>
+        <div id="final"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="affine.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="caesar.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Caesar Cipher</h1>
+        <label for="text">Nhập văn bản:</label>
+        <textarea id="text" placeholder="Nhập chữ cái A-Z"></textarea>
+
+        <label for="key">Khóa (0-25):</label>
+        <input type="number" id="key" min="0" max="25" value="3">
+
+        <div class="buttons">
+            <button onclick="encrypt()">Mã hóa</button>
+            <button onclick="decrypt()">Giải mã</button>
+        </div>
+
+        <label for="result">Kết quả:</label>
+        <textarea id="result" readonly></textarea>
+    </div>
+
+    <script src="caesar.js"></script>
+</body>
+</html>

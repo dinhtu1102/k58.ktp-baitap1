@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vigenère Cipher</title>
+  <link rel="stylesheet" href="vigenere.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Vigenère Cipher</h1>
+
+    <div class="main-content">
+
+      <!-- Input Section -->
+      <div class="input-section">
+        <div class="input-group">
+          <label for="plain">Nhập văn bản (A-Z, khoảng trắng):</label>
+          <input type="text" id="plain" maxlength="300" placeholder="VD: HELLO WORLD">
+        </div>
+
+        <div class="input-group">
+          <label for="key">Nhập khóa (chữ hoa A-Z):</label>
+          <input type="text" id="key" maxlength="20" placeholder="VD: SECRET">
+        </div>
+
+        <div class="input-group flex-row">
+          <button onclick="encryptVigenere()">Mã hóa</button>
+          <button onclick="decryptVigenere()">Giải mã</button>
+        </div>
+      </div>
+
+      <!-- Steps / Log Section -->
+      <div class="steps-section" id="stepsBox" style="display:none;">
+        <h3>Quy trình chi tiết</h3>
+        <div id="log1"></div>
+        <div id="log2"></div>
+        <div id="log3"></div>
+        <div id="final"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="vigenere.js"></script>
+</body>
+</html>
