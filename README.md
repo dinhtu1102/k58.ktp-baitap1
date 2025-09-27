@@ -1,3 +1,5 @@
+# Nguyễn Đình Tú - K225480106067
+
 # k58.ktp-baitap1
 
 nội dung bài tập  một
